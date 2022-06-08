@@ -1,0 +1,31 @@
+body{ 
+    background-color: bisque;
+}
+#profilePic{ 
+    border-radius: 60%;
+    height:500px;
+    width: 400px;
+    
+
+}
+h1 {
+    color:tomato
+}
+h2{
+    color: blue;
+}
+#projectPic{
+    height: 75%;
+    width: 75%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#projects{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+#welcome {
+    font-size: 75px;
+}
